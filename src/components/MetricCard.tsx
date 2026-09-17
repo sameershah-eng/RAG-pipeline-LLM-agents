@@ -4,7 +4,7 @@ import {
   Clock,
   FileText,
   FileCheck2,
-  TrendingUp,
+  ArrowUp,
 } from 'lucide-react';
 import { MetricCardData } from '../types';
 
@@ -69,7 +69,7 @@ export const MetricCard: React.FC<MetricCardProps> = ({ card }) => {
             <span
               className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-semibold ${getTrendStyle()}`}
             >
-              <TrendingUp className="w-3 h-3 stroke-[2.5]" />
+              <ArrowUp className="w-3 h-3 stroke-[2.5]" />
               {card.trend}
             </span>
           </div>
