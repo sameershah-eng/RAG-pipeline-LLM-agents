@@ -1,0 +1,7 @@
+{
+  "name": "Operations Control Center",
+  "description": "A sleek, simple, elegant B2B dashboard for a sales and quoting team that manages bids, quotes, RFQs, deals, and document revisions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
